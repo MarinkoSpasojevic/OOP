@@ -11,6 +11,9 @@ namespace Example1
         static void Main(string[] args)
         {
             Student student = new Student(); //default constructor
+            Student student10 = new Student();
+            Student student20 = new Student();
+            Student student30 = new Student();
 
             Student student1 = new Student("John", "Doe");//overloaded constructor
             Console.WriteLine(student1.GetFullName());
